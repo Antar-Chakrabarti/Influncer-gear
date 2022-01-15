@@ -1,6 +1,9 @@
 /* mobile devices */
 
 @media only screen and (max-width: 688px) {
+    .container {
+        margin: 10px 0;
+    }
     .banner-area {
         flex-direction: column;
     }
@@ -16,6 +19,10 @@
     }
     .card {
         width: 100%;
+    }
+    .contactus-section .contact {
+        flex-direction: column;
+        padding: 5px;
     }
 }
 
