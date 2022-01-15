@@ -1,0 +1,234 @@
+/* google fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* common css here */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1400px;
+    font-family: 'Poppins', sans-serif;
+    /* margin: 0 auto; */
+    margin: 95px 120px;
+}
+
+.container {
+    margin: 95px 120px;
+}
+
+
+/*-------------------
+ header area css here 
+ --------------------*/
+
+
+/* nav menu css start */
+
+nav>.nav-menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav>.nav-menu>ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav>.nav-menu>ul li {
+    list-style: none;
+    margin-right: 10px;
+}
+
+nav>.nav-menu>ul li a {
+    text-decoration: none;
+    color: #3A3A3A;
+    font-weight: 600;
+}
+
+nav>.nav-menu>ul li a i {
+    font-size: 20px;
+}
+
+.banner-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.banner-detail {
+    width: 592px;
+}
+
+.banner-img {
+    width: 440px;
+    overflow: hidden;
+}
+
+.banner-img img {
+    width: 100%;
+    transition: 0.5s ease;
+}
+
+.banner-img img:hover {
+    transform: rotate(45deg) scale(1.2);
+}
+
+.btn {
+    display: inline-block;
+    width: 190px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #FF6263;
+    border-radius: 50px;
+    transition: 0.4s ease;
+}
+
+.btn:hover {
+    background-color: #ff62629f;
+}
+
+
+/*--------------------------
+ main section start from here 
+ ---------------------------*/
+
+
+/* card section */
+
+.section-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 25px;
+}
+
+.card {
+    width: 329px;
+    padding: 10px;
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 5px;
+    transition: 0.5s ease;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card h2 {
+    font-size: 28px;
+}
+
+.card img {
+    width: 100%;
+    text-align: center;
+}
+
+.card p {
+    font-size: 14px;
+}
+
+.full {
+    color: #E8BD0D;
+    font-size: 14px;
+}
+
+.empty {
+    color: gray;
+}
+
+.see-more {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.see-more-btn {
+    text-decoration: none;
+    color: #FF6263;
+    display: inline-block;
+    margin-top: 35px;
+    margin-right: 60px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: .5s ease;
+}
+
+.see-more-btn:hover {
+    background-color: #FF6263;
+    color: #fff;
+}
+
+
+/* care section ends here */
+
+
+/* contact section start from here */
+
+.contactus-section>h2 {
+    text-align: center;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.contactus-section .contact {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.social-media>ul {
+    display: flex;
+}
+
+.social-media>ul li {
+    list-style: none;
+    margin: 10px;
+}
+
+.social-media>ul li a {
+    font-size: 2em;
+    padding: 3px 10px;
+    background-color: #5DA3FA;
+    border-radius: 80px;
+    color: #fff;
+    transition: 0.05s ease;
+}
+
+.social-media>ul li a:hover {
+    background-color: #03C6C7;
+    font-size: 1.8em;
+}
+
+.contact-form form {
+    width: 500px;
+}
+
+.contact-form input,
+button {
+    width: 400px;
+    padding: 15px 20px;
+    margin: 5px;
+    border: 2px solid #03C6C7;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.39);
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.button {
+    color: #fff;
+    width: 100px;
+    background-color: #12B0E8;
+}
+
+.button:hover {
+    background-color: #12afe8c7;
+}
