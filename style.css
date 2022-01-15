@@ -117,10 +117,6 @@ nav>.nav-menu>ul li a i {
     transition: 0.5s ease;
 }
 
-.card:hover {
-    transform: scale(1.1);
-}
-
 .card h2 {
     font-size: 28px;
 }
@@ -239,7 +235,17 @@ footer {
     flex-direction: column;
     align-items: center;
     color: #fff;
-    background-color: black;
+    background-color: #0A0826;
+}
+
+footer>.footer-links {
+    display: flex;
+    font-size: 30px;
+}
+
+footer>.footer-links i {
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.39);
 }
 
 
