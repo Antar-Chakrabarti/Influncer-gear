@@ -1,0 +1,25 @@
+/* mobile devices */
+
+@media only screen and (max-width: 688px) {
+    .banner-area {
+        flex-direction: column;
+    }
+    .banner-detail {
+        width: 100%;
+        align-items: center;
+    }
+    .banner-img {
+        width: 100%;
+    }
+    .section-cards {
+        grid-template-columns: 1fr;
+    }
+    .card {
+        width: 100%;
+    }
+}
+
+
+/* tablet devices */
+
+@media only screen and (min-width:687px) and (max-width: 991px) {}
